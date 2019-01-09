@@ -11,13 +11,11 @@ namespace Errore_lancio_razzo
         static void Main(string[] args)
         {
             double Spazio = 0;
-            double metri_sec = 0;
+            double metri_sec =1676;
             double errore_tempo = 0;
             double tronc = 0.000000095;
 
-            //inseriamo in input la velocità
-            Console.WriteLine("inserire la velocità");
-            metri_sec = Convert.ToDouble(Console.ReadLine());
+            
 
             //calcolo errore di tempo
             errore_tempo = tronc * 100 * 60 * 60 * 10;
