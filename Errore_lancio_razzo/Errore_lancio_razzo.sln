@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Errore_lancio_razzo", "Errore_lancio_razzo\Errore_lancio_razzo.csproj", "{306E4F6B-7429-4BAD-A249-194BF43A5FA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{306E4F6B-7429-4BAD-A249-194BF43A5FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306E4F6B-7429-4BAD-A249-194BF43A5FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306E4F6B-7429-4BAD-A249-194BF43A5FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306E4F6B-7429-4BAD-A249-194BF43A5FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D77DBB5-6EEB-463F-A5F9-A797C8F76068}
+	EndGlobalSection
+EndGlobal
