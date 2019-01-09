@@ -10,7 +10,7 @@ namespace Errore_lancio_razzo
     {
         static void Main(string[] args)
         {
-            double Spazio = 0;
+            double Spazio_fallito = 0;
             double metri_sec = 0;
             double errore_tempo = 0;
             double tronc = 0.000000095;
@@ -24,8 +24,8 @@ namespace Errore_lancio_razzo
             Console.WriteLine($"Hanno sbagliato di {errore_tempo}s");
 
             //calcolo errore di spazio
-            Spazio = metri_sec * errore_tempo;
-            Console.WriteLine($"Hanno sbagliato di {Spazio}m");
+            Spazio_fallito = metri_sec * errore_tempo;
+            Console.WriteLine($"Hanno sbagliato di {Spazio_fallito}m");
 
             Console.ReadLine();
         }
